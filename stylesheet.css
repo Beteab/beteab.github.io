@@ -16,8 +16,9 @@ a{
     color: red;
 }
 em{
+    font-weight: bold;
     color: yellow;
 }
-img{
+p img{
     width: 20vw;
 }
