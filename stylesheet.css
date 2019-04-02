@@ -1,0 +1,23 @@
+
+body{
+    background-color: #655d42;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+
+h2{
+    color: #75a0e8;
+}
+h1{
+    color:#75a0e8;
+}
+a{
+    color: red;
+}
+em{
+    color: yellow;
+}
+img{
+    width: 20vw;
+}
