@@ -5,6 +5,12 @@ body{
     background-image: url("image/silverware.jpg");
     background-repeat: repeat;
     font-family: Georgia sans-serif;
+
+}
+
+abbr > span{
+    text-decoration: underline ;
+
 }
 a{
     color: #A4A400;
