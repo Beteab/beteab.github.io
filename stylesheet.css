@@ -13,7 +13,11 @@ h1{
     color:#75a0e8;
 }
 a{
+    text-decoration: none;
     color: red;
+}
+a:hover{
+    text-decoration: underline;
 }
 em{
     font-weight: bold;
@@ -21,4 +25,14 @@ em{
 }
 p img{
     width: 20vw;
+}
+p::first-letter{
+    font-size: 150%;
+    color: white;
+}
+.showme{
+    display: none;
+}
+li>.showme:hover{
+    display: block;
 }
