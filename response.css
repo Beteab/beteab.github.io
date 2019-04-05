@@ -1,9 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 #header{
     width: 100%;
     padding: 5px 0;
     text-align: center;
     background-color: #75a0e8;
 }
+
 #nav{
 width: 100%;
     height: 50px;
@@ -14,29 +19,79 @@ width: 100%;
 #nav div{
     height: 100%;
     font-size: 12pt;
-    padding:15px;
+
+    padding: 0 15px 0 15px;
     display: inline-block;
     color: white;
     border-right: black solid 1px;
     border-collapse: collapse;
 }
-#content{
-    width: 100%;
-    text-align: center;
-    height: 300px;
+div p {
+    top: 5%;
+    position: relative;
 }
-#content div{
-    width: 30%;
-    height: 100%;
-    color: white;
-    background-color: grey;
-    display: inline-block;
-    text-align: center;
-bottom: 0;
-    border: black solid 1px;
+@media only screen and (min-width: 300px) {
+
+    #content div {
+        height: 30vw;
+        width: 33%;
+
+        color: white;
+        background-color: grey;
+
+        text-align: center;
+        bottom: 0;
+        border: black solid 1px;
+    }
+
+    div#column1 {
+        background-color: #b8b8b8;
+        float: left;
+        width: 50%;
+    }
+
+    div#column2 {
+        background-color: #d0d0d0;
+        float: inherit;
+        width: 100%;
+        clear: both;
+    }
+
+    div#column3 {
+        background-color: #e8e8e8;
+        float: right;
+        width: 50%;
+        clear: both;
+        margin-top: -60vw;
+    }
+
+}
+
+/* applies to any screen 600px or larger -- favor this */
+@media only screen and (min-width: 600px) {
+
+    div#column1 {
+        float: left;
+        width: 33.2%;
+        clear: none;
+    }
+
+    div#column2 {
+        float: left;
+        width: 33.3%;
+        clear: none;
+    }
+
+    div#column3 {
+        float: right;
+        width: 33%;
+        margin-top: 0;
+        clear: none;
+    }
 }
 #footer{
     width: 100%;
+    clear: right;
     padding: 5px 0;
     text-align: center;
     background-color: #09423b;
