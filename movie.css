@@ -1,0 +1,139 @@
+body{
+    font-size: 8pt;
+    background-image: url("image/background.png");
+position: relative;
+    padding:0px;
+    margin:0px;
+    /*min-width: 100%;*/
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#container{
+
+    overflow: hidden;
+    width: 800px;
+    border: 4px grey solid ;
+    margin: auto;
+    border-radius: 20px;
+position: relative;
+
+
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 4px 8px #525a59;
+}
+ #second{
+
+    float: right;
+    padding: 0px;
+
+
+    overflow: hidden;
+    display: inline-block;
+    width: 250px;
+
+    font-size: 8pt;
+    background-color: #7ba400;
+
+
+}
+#container #first{
+    width: 550px;
+    height: auto;
+    overflow: scroll;
+    float: left;
+}
+ #third {
+   width: 550px;
+
+
+     background-color: #7ba400;
+
+     text-align: center;
+
+
+     position: absolute;
+     bottom: 0;
+
+
+}
+
+
+#background-nav {
+    min-width: 100%;
+    background-image: url("image/bannerbg.png");
+
+    position: relative;
+}
+#background-nav > img{
+
+   margin-left: 20%;
+}
+.row{
+    display: flex;
+}
+.column {
+    width: 47%;
+    padding: 2%;
+   /* Should be removed. Only for demonstration */
+}
+
+#three{
+    background-image: url("image/rbg.png");
+    max-height: 83px;
+    float: top;
+
+    color: red;
+    font-size: 48pt;
+    position: relative;
+    min-width: 100%;
+    grid-area: header;
+    flex-wrap: nowrap;
+}
+#three > img{
+    vertical-align: bottom;
+}
+p > img{
+    margin-right: 5px;
+}
+
+#check{
+
+    background-color: #7ba400;
+}
+.contain{
+    border: grey solid 2px ;
+    padding: 8px;
+    border-radius: 10px;
+
+    background-color: #E8DC9B;
+}
+
+h2{
+    color: red;
+    font-size: 48pt;
+    font-weight: bold;
+   position: absolute;
+    font-family: Tahoma, Verdana,  sans-serif;
+    text-shadow: 2px 4px 8px #999999;
+left: 15px;
+}
+#validator{
+float: right;
+    bottom: 0;
+
+}
+#validator > a{
+    opacity: 0.5;
+}
+dt{
+    font-weight: bold;
+    margin: 15px 15px 0 15px;
+
+}
+dl{
+    padding-bottom: 40%;
+}
+p img{
+    float: left;
+}

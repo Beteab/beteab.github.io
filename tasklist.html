@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="task.css" type="text/css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<div id="header">
+    Task List
+</div>
+<div>
+    <div>
+    <label>
+        Task
+    </label>
+    <br>
+    <input type="text" name="task " placeholder="Breakfast at tiffanys"/>
+    </div>
+    <div>
+    <label>
+        Requested by
+    </label>
+    <br>
+    <input type="date" name="requested"/>
+    </div>
+    <div>
+    <label>
+        Category
+    </label>
+        <br>
+    <select name="category">
+        <option selected>Personal</option>
+        <option>Business</option>
+        <option>Work</option>
+    </select>
+    </div>
+</div>
+<button type="submit" name="Save">Save Task</button>
+<button type="reset" name="clear">clear task</button>
+</div>
+<table style="width:100%">
+    <tr>
+        <th>Name</th>
+        <th>Due</th>
+        <th>Category</th>
+    </tr>
+    <tr>
+        <td>Return library books</td>
+        <td>2013-10-14</td>
+        <td>Personal</td>
+    </tr>
+    <tr>
+        <td>Perform project demo to stakeholders</td>
+        <td>2013-10-14</td>
+        <td>Work</td>
+    </tr>
+    <tr>
+        <td>Meet friends for dinner</td>
+        <td>2013-10-14</td>
+        <td>Personal</td>
+    </tr>
+</table>
+<button type="submit" name="add">Add Task</button>
+
+<div id="footer">
+    you have 3 tasks
+</div>
+</body>
+</html>

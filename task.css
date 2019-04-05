@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+
+    background-color: #75a0e8;
+    color: white;
+}
+#footer{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #7d8685;
+
+}
+#header{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #7d8685;
+
+}
+input{
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    background-color: #75a0e8;
+    color: white;
+}
