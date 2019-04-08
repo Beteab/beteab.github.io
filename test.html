@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<button id="clickbtn"> Click me! </button>
+<span id="output"></span>
+<script>
+    var timer = null;
+    // document.getElementById("clickbtn").onclick = delayMsg2();
+    window.onload = function () {
+        if(timer == null){
+            timer = setInterval( function() {
+                document.getElementById("output").innerHTML+="Rudy!";
+            } , 1000);
+        }else{
+            clearInterval(timer);
+            timer = null;
+        }
+    }
+
+
+</script>
+</body>
+</html>

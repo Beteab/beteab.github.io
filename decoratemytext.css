@@ -1,0 +1,15 @@
+fieldset{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    max-width: 400px;
+    background-color: aliceblue;
+    
+}
+textarea{
+    font-size: 12pt;
+}
+
+#ta1{
+    font-size: 12pt;
+}
