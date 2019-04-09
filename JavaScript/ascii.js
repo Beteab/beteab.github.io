@@ -3,24 +3,7 @@ window.onload = function(){
     let val = document.getElementById("animation").value;
     console.log(val);
 };
-// document.getElementById("animation").onchange= function(){
-//     let val = document.getElementById("animation").value;
-//     console.log(val);
-// };
-// function change(){
-//     let val = document.getElementById("animation").value;
-//     console.log(val);
-//     if(val === "Exercise"){
-//         var defaults = ANIMATIONS[val].split("=====\n");
-//         document.getElementById("text-area").value =  defaults[0];
-//     }else if(val === "Juggler"){
-//         document.getElementById("text-area").value =  ANIMATIONS[val];
-//     }else if(val === "Bike"){
-//         document.getElementById("text-area").value =  ANIMATIONS[val];
-//     }else if(val === "Dive"){
-//         document.getElementById("text-area").value =  ANIMATIONS[val];
-//     }
-// }
+
 var myVar;
 
 function turbo () {
@@ -71,12 +54,7 @@ function myStopFunction() {
 }
 function fontSizeChange() {
     let fon = document.getElementById("fontsize").value;
-// <option value="Tiny">Tiny</option>
-//         <option value="Small">Small</option>
-//         <option value="Medium" selected="selected">Medium</option>
-//         <option value="Large">Large</option>
-//         <option value="Extra Large">Extra Large</option>
-//     <option value="XXL">XXL</option>
+
     if(fon === "Tiny"){
         document.getElementById("text-area").style.fontSize = "x-small";
     }else if(fon === "Small"){
@@ -93,15 +71,4 @@ function fontSizeChange() {
 
 
 }
-// console.log("  o\n" +
-//     " /#\\\n" +
-//     " _|_\n" +
-//     "=====\n" +
-//     " \\o/\n" +
-//     "  #\n" +
-//     "_/ \\_\n");
 
-   // function   drop() {
-
-
-// }
