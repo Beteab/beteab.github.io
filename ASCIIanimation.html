@@ -16,7 +16,7 @@
 			<fieldset>
 				<legend>Play Controls:</legend>
 				<button id="start" onclick="start()">Start</button>
-				<button disabled="disabled" id="stop">Stop</button>
+				<button disabled="disabled" id="stop" onclick="stop()">Stop</button>
 			</fieldset>
 
 			<fieldset>
@@ -31,7 +31,7 @@
 			</fieldset>
 			<fieldset>
 				<legend>Size:</legend>
-				<select id="fontsize">
+				<select id="fontsize" onchange="fontSizeChange()">
 					<option value="Tiny">Tiny</option>                                              
 					<option value="Small">Small</option>                        
 					<option value="Medium" selected="selected">Medium</option>                                           
@@ -42,16 +42,16 @@
 			</fieldset>
 			<fieldset>
 				<legend>Speed:</legend>
-				<label><input id="turbo" type="checkbox">Turbo</label>
+				<label><input id="turbo" type="checkbox" onclick="turbo()">Turbo</label>
 			</fieldset>
 		</div>
         <div id="validate">
-            <a href="http://validator.w3.org/check/referer">
-                <img src="w3c-html.png" alt="html validator">
+            <a href="https://validator.w3.org/check/referer">
+                <img src="image/w3c-html.png" alt="html validator">
             </a><br>
-            <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                <img src="w3c-css.png" alt="Valid CSS!"></a><br>
-            <a href="http://webster.cs.washington.edu/jslint?referer">
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="image/w3c-css.png" alt="Valid CSS!"></a><br>
+            <a href="https://webster.cs.washington.edu/jslint?referer">
 		<img src="jslint.png" alt="JavaScript Lint">
 			</a>
 
