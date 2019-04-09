@@ -1,6 +1,6 @@
 body{
     font-size: 8pt;
-    background-image: url("image/background.png");
+    background-image: url("../image/background.png");
 position: relative;
     padding:0px;
     margin:0px;
@@ -61,7 +61,7 @@ h1{
 
 #background-nav {
     min-width: 100%;
-    background-image: url("image/bannerbg.png");
+    background-image: url("../image/bannerbg.png");
 
     position: relative;
 }
@@ -79,7 +79,7 @@ h1{
 }
 
 #three{
-    background-image: url("image/rbg.png");
+    background-image: url("../image/rbg.png");
     max-height: 83px;
     float: top;
 
