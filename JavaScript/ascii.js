@@ -4,15 +4,16 @@ window.onload = function(){
     console.log(val);
 };
 
-var myVar;
+var myVar , myVar2,myVar3;
 
 function turbo () {
     if(document.getElementById("turbo").checked){
-       myVar= setInterval(again, 50);
-    }else{
+       myVar2= setInterval(again, 50);
+    }else if (!document.getElementById("turbo").checked){
         console.log("clear");
-        myStopFunction();
-        start();
+        document.getElementById("start").disabled = false;
+        clearInterval(myVar2);
+
     }
 }
 
@@ -30,10 +31,12 @@ document.getElementById("stop").onclick=stop();
 
 
     function stop() {
+        clearInterval(this.myVar);
+
     console.log("soem");
         document.getElementById("stop").disabled=true;
         document.getElementById("start").disabled = false;
-    clearInterval(myVar);
+
 }
 var x = 0;
 function again(){
