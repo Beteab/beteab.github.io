@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
     $('#start').click(function () {
         $("div.boundary").css("background-color","#eeeeee");
         $("#maze").off("mouseleave");

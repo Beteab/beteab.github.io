@@ -1,3 +1,4 @@
+
 function myFunctionTest(expected, function2test) {
     if (expected === function2test()) {
         return "TEST SUCCEEDED";
